@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Resonate Innovate</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="background-image">
+            <div class="logo">
+                <video class="vid" autoplay loop muted>
+                    <source src="images/vlogo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+    <div class="rectanglo">
+        <div class="rectangle" id="rect1"></div>
+        <div class="rectangle" id="rect2">WE ARE</div>
+    </div>
+
+    <div class="blue-background">
+        <div class="text-center">
+
+            <p>Innovative video game development studio based in Serbia, passionate about merging the artistry of
+                traditional media with the possibilities of modern technology.</p>
+            <p>Our mission is to craft captivating and immersive experiences that resonate with players and push the
+                boundaries of storytelling and gameplay.</p>
+
+        </div>
+    </div>
+    <div class="circle1">
+    </div>
+    <div class="circle2">
+    </div>
+
+    <div class="stori">
+        <div class="stori1">OUR STORY</div>
+
+    </div>
+
+    <img class="main-image" src="images/story.jpg" alt="Main Image">
+
+    <div class="info-section">
+        <div class="grey-border">
+            <div class="circle-img">
+                <img src="images/np.png" class="imge">
+            </div>
+            <div class="name-title">
+                <div class="name">Nemanja PETROVIĆ</div>
+                <div class="titles"> Art Director / Game Designer </div>
+            </div>
+        </div>
+        <div class="text-section">
+            <p>There’s truly no better medium for expressing human creativity than pencil and paper. While other
+                technologies may promise to enhance our creative abilities, nothing quite matches the simplicity and
+                power of these timeless tools. </p>
+            <p>As we face the challenges of modern technology, which can sometimes overshadow the rich knowledge and
+                creativity built over centuries, it’s important to reconnect with our roots.</p>
+            <p>By embracing traditional media and thoughtfully integrating it with new advancements, we can preserve our
+                essence and continue to flourish as creators.</p>
+        </div>
+    </div>
+
+    <hr class="dotted-divider">
+
+    <div class="imagees-section">
+        <div class="circless-image">
+            <img src="" alt="Luka" class="imagos">
+            <div class="names-titles">
+                <span class="nameees">Luka</span>
+                <span class="surnamees">TROŠIĆ</span>
+            </div>
+            <h4 class="titleees">Game Developer</h4>
+        </div>
+        <div class="circless-image">
+            <img src="images/portrait1.jpg" alt="Lela" class="imagess">
+            <div class="names-titles">
+                <span class="nameees">Lela</span>
+                <span class="surnamees">Trajković</span>
+            </div>
+            <h4 class="titleees">Graphic Designer</h4>
+        </div>
+        <div class="circless-image">
+            <img src="" alt="Vanja Vukčević" class="imagess">
+            <div class="names-titles">
+                <span class="nameees">Vanja</span>
+                <span class="surnamees">Vukčević</span>
+            </div>
+            <h4 class="titleees">Music Composer</h4>
+        </div>
+    </div>
+
+    <div class="papa-div">
+        <div class="content-container">
+            <div class="text-content"></div>
+            <div class="orange-text">GAME IN PRODUCTION</div>
+            <div class="blue-text">Dominate The Machine</div>
+            <p class="normal-text">In a world where art is increasingly overshadowed by templates and predefined
+                designs,
+                we’ve chosen to embark on a creative journey with a game crafted mainly on paper. This project
+                celebrates
+                the beauty of hand-drawn artistry and the unique charm that comes from embracing the tactile nature of
+                traditional media combined with modern technology.</p>
+            <button class="explore-button" onclick="window.location.href='https://freecodecamp.org/'">Explore</button>
+        </div>
+        <div class="human-img">
+            <img src="images/gameinproduction.jpg" alt="human" class="human">
+        </div>
+    </div>
+
+    <div class="boss-div">
+        <div class="contacto-container">
+            <div class="tatko-div">
+                <div class="texto-section">
+                    <h2 class="cont1" id="conto1">LET'S KEEP IN TOUCH</h2>
+                    <h3 class="cont2" id="conto2">Don’t hesitate to reach out and inquire about our progress!</h3>
+                    <h4 class="cont3" id="conto3">We’d love to keep you updated!</h4>
+                </div>
+            </div>
+        </div>
+        <div class="tata-div">
+            <div class="contact-container">
+                <div class="contacto-form">
+                    <form id="contact" action="/send-email" method="post" onsubmit="return validateForm();">
+                        <input id="nume" type="text" name="name" placeholder="Your Name" required>
+                        <input id="meil" type="email" name="email" placeholder="Your Email" required>
+                        <textarea id="tarea" name="message" placeholder="Comments*" required></textarea>
+                        <div class="g-recaptcha" data-sitekey="*"></div>
+                        <button id="buton" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-icons">
+                <div class="row">
+                    <a href="Facebook" target="_blank" class="social-icon" id="social-icon">
+                        <img src="images/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="X" target="_blank" class="social-icon" id="social-icon">
+                        <img src="images/X.png" alt="Twitter">
+                    </a>
+                    <a href="instagram" target="_blank" class="social-icon" id="social-icon">
+                        <img src="images/instagram.png" alt="Instagram">
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="youtube" target="_blank" class="social-icon" id="social-icon">
+                        <img src="images/youtube.png" alt="LinkedIn">
+                    </a>
+                    <a href="tiktok" target="_blank" class="social-icon" id="social-icon">
+                        <img src="images/tiktok.png" alt="LinkedIn">
+                    </a>
+                    <a href="discord" target="_blank" class="social-icon" id="social-icon">
+                        <img src="images/discord.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright">© Copyright 2024 ONECREATION. All rights reserved</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
